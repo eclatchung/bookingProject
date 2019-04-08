@@ -2,7 +2,6 @@
 [2019-04-08]
 mysql을 사용<br/>
 mysql에서 es6을 사용.<br/>
--mysql 모듈화  : https://supdev.tistory.com/46 <br/>
 mysql을 모듈화해서 적용을 했는데 오류가 계속 생겼다.<br/>
 1. 오류1 : config에 DB정보를 작성해서 host : config.host이런 식으로 작성을 했음<br/>
        이러한 경우에는<br/>
