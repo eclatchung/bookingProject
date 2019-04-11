@@ -16,10 +16,12 @@ var io =require('socket.io')(http);
 
 
 //test
-app.get('/',(res)=> {
+app.get('/',(req,res)=> {
     res.send('HI')
     console.log('in main page')
 });
+
+app.use('/app',require('./routes/api/index'))
 
 //variables
 const port = process.env.PORT || 3000;
